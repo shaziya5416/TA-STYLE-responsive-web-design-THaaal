@@ -1,0 +1,349 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*General*/
+html{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2.2rem 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.item-center{
+    align-items: center;
+}
+img{
+    font-size: 100%;
+}
+header{
+    background:linear-gradient(rgb(61,74,179,0.8),rgb(61,74,179,0.8)), url("banner.png") no-repeat ;
+    background-size: cover;
+}
+.navigation a{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 1.5rem 0;
+}
+.hero-article p{
+    color: white;
+}
+.hero-article h1{
+    padding-bottom: 1rem;
+    color: white;
+}
+.flex-48{
+    flex: 0 1 48%;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+strong{
+    color: rgb(242,73,78);
+}
+button{
+    font-size: 1.5rem;
+    background-color: rgb(242,73,78);
+    color: white;
+    padding:1.2rem;
+    border: 0;
+    border-radius: 0.5rem;
+}
+.join h1{
+    text-align: center;
+}
+.join{
+    background-color: rgb(223,236,254);
+    position: relative;
+}
+.flex-30{
+    flex:0 1 30%;
+}
+.footer1{
+    background-color: rgb(34,52,123);
+}
+.footer2{
+    background-color: rgb(19,39,105);
+}
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.icons i{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-weight: 800;
+    color: white;
+
+}
+.join-article{
+    padding:1.2rem;
+    border: 2px dashed red;
+    margin-top:3.5rem;
+    margin-right: 2rem;
+}
+.below-number{
+    padding-top: 1rem;
+}
+.number{
+    padding: 0.6rem;
+    position: absolute;
+    top:30%;
+    display: inline-block;
+    background-color: rgb(223,236,254);
+}
+.schedule h1{
+    text-align: center;
+    margin: 1.5rem 0;
+    padding-bottom: 3rem;
+}
+.date-white,.date-red{
+    border-radius: 50%;
+    background-color: rgb(242,73,78);
+    width: 8rem;
+    height: 8rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.date{
+    display: none;
+}
+.date-white{
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: white;
+    color: rgb(242,73,78);
+    border: 2px dashed rgb(242,73,78);
+}
+.vertical-line{
+    border-left: 2px dashed rgb(242,73,78);
+    height: 5rem;
+    margin-left: 4rem;;
+}
+.schedule-img{
+    width: 11rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+    margin: 0 5rem;
+}
+.schedule-article{
+    margin-bottom: 4rem;
+}
+.icons{
+    background-color: rgb(223,236,254);
+}
+.schedule button{
+    margin-left: 30rem;
+}
+.red{
+    background-color: rgb(242,73,78);
+    color: white;
+}
+.flex-25{
+    flex:0 1 25%
+}
+.icons-figure{
+    padding:1rem 6rem;
+    border-radius: 0.5rem;
+}
+.video{
+    border-radius: 0.5rem;
+}
+.news {
+    background-color: rgb(223,236,254);
+}
+.news h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+
+}
+.news p{
+    font-size: 1.3rem;
+}
+.news a{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: black;
+}
+.news1{
+    padding-bottom: 6rem;
+}
+.news a strong{
+    text-decoration: underline;
+}
+.footer-logo{
+    max-width: 10%;
+    height: auto;
+}
+.quick-link h5,.social-media h5{
+    color: white;
+    padding: 1.5rem 0;
+}
+.quick-link a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:gray;
+}
+.social-icons i{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1.2rem;
+}
+.footer2 {
+    text-align: center;
+}
+.footer2 p{
+    color: gray;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:768px){
+    html{
+        font-size:10px;
+    }
+    .flex-30{
+        flex:0 1 100%;
+    }
+    .flex-48{
+        flex: 0 1 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    img{
+        width:100%;
+        margin:2rem 0;
+    }
+    body{
+        margin: 0 2rem;
+    }
+    .button{
+        margin: 1rem 0;
+    }
+    header .flex{
+        display: block;
+        text-align: center;
+    }
+    li{
+        margin-top: 1rem;
+    }
+    .navigation .flex{
+        display: flex;
+        justify-content: center;
+    }
+    footer .flex{
+        display:block;
+        text-align: center;
+    }
+    .icons{
+        margin-top: 1.5rem;
+    }
+    .schedule aside{
+        display: none;
+    }
+    .schedule-img{
+        width: 30rem;
+        height: 25rem;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .schedule-article2{
+        justify-content: center;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .date{
+        display: inline-block;
+        font-size: 2rem;
+        padding: 1.2rem;
+        color: rgb(242,73,78);
+    }
+    .schedule button{
+        margin-left: 10rem;
+
+    }
+    .number{
+        display: none;
+    }
+    .icons-figure{
+        margin: 0 auto;
+        border: 1px solid black;
+        margin-top: 1.2rem;
+    }
+    .video iframe{
+        height: 50rem;
+    }
+    .footer-logo{
+        max-width:40%;
+    }
+}  
